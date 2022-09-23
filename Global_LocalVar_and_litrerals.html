@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Js variables & JS Literals</title>
+</head>
+
+<body>
+    <script>
+        //  with templete literals
+        console.log(` Menu Items
+ sandwiches
+ hamburgers
+ french fries
+ fried chicken`);
+        var data = 50;//global variable declaration
+        function a() {
+            document.write("Global Variable = ");
+            document.writeln(data);
+        }
+        function b() {
+            var data = 100;//local variable declaration
+            document.write("<br>");
+            document.write("Local Variable = ");
+            document.writeln(data);
+        }
+        a();//calling JavaScript function
+        b();
+    </script>
+ </body>
+
+</html>
